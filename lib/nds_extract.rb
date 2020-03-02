@@ -49,7 +49,7 @@ def total_gross(source)
   # return the total
   
   dir_hash = directors_totals(source)
-  dir_name = list_of_directors(source)
+  dir_names = list_of_directors(source)
   constant = 0
   
   total = 0
