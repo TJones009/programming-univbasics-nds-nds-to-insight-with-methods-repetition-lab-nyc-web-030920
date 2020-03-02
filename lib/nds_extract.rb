@@ -48,8 +48,15 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
+  dir_earn_hash = directors_totals(source)
+  dir_name = list_of_directors(source)
+  constant = 0
   
+  total = 0
   
+  while constant < dir_name.length do
+    dir_name = dir_names(constant)
+    total 
   
 end
 
