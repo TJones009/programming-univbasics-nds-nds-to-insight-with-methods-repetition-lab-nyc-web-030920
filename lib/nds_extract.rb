@@ -54,7 +54,7 @@ def total_gross(source)
   
   total = 0
   
-  while constant < dir_name.length do
+  while constant < dir_names.length do
     dir_name = dir_names[constant]
     total += dir_hash[dir_name]
     constant += 1
