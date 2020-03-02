@@ -26,7 +26,11 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  names = []
+  constant = 0
   
+  while constant < source.size do
+    names.push
   
   
 end
